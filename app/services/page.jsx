@@ -1,33 +1,33 @@
 "use client";
 
 import { BsArrowDownRight } from "react-icons/bs";
-import Link from "next/link";
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button"
 
 const services = [
   {
     num: "01",
     title: "Backend Development",
     desc: "Expert in building robust and scalable backend systems using Node.js, Express, and MongoDB.",
-    href: "",
+    
   },
   {
     num: "02",
     title: "API Development",
     desc: "Proficient in designing and implementing RESTful APIs with comprehensive documentation.",
-    href: "",
+    
   },
   {
     num: "03",
     title: "Database Management",
     desc: "Experienced in working with SQL and NoSQL databases, ensuring data integrity and performance optimization.",
-    href: "",
+    
   },
   {
     num: "04",
     title: "DevOps & Deployment",
     desc: "Skilled in deploying applications and managing CI/CD pipelines for continuous integration and delivery.",
-    href: "",
+    
   },
 ];
 
@@ -56,12 +56,12 @@ const Services = () => {
                 <div className="text-5xl font-extrabold text-outline group-hover:text-outline-hover text-transparent select-none transition-all duration-300">
                   {service.num}
                 </div>
-                <Link
-                  href={service.href}
+                <Button
+                  
                   className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-300 flex items-center justify-center hover:-rotate-45"
                 >
                   <BsArrowDownRight className="text-primary text-3xl" />
-                </Link>
+                </Button>
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-300">
                 {service.title}

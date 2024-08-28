@@ -58,6 +58,24 @@ const projects = [
     live: "https://chat.eng-ahmed.me",
     github: "https://github.com/ahmed-abdelhameed1706/fullstack-chat",
   },
+  {
+    num: "03",
+    category: "Full-Stack",
+    title: "VibeMK",
+    description:
+      "VibeMK allows users to create or join groups specifically for sharing videos. Whether it's reels, clips, or any other type of video content, VibeMK provides a dedicated space for these interactions, ensuring that chat applications remain focused on communication, free from the clutter of video links.",
+
+    stack: [
+      { name: "Express.js" },
+      { name: "React" },
+      { name: "MongoDB" },
+      { name: "Node.js" },
+      
+    ],
+    image: "/assets/vibemk.png",
+    live: "https://vibemk.eng-ahmed.me",
+    github: "https://github.com/ahmed-abdelhameed1706/VibeMK",
+  },
 ];
 const Work = () => {
   const [activeProject, setActiveProject] = useState(projects[0]);

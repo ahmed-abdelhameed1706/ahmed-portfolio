@@ -278,10 +278,10 @@ const Resume = () => {
                   {about.info.map((item, index) => (
                     <li
                       key={index}
-                      className="flex items-center justify-center xl:justify-start gap-4 "
+                      className="flex items-center justify-center xl:justify-start gap-4 flex-wrap"
                     >
-                      <span className="text-white/60">{item.name}</span>
-                      <span className="text-xl">{item.value}</span>
+                      <span className="text-white/60 text-md">{item.name}</span>
+                      <span className="text-lg">{item.value}</span>
                     </li>
                   ))}
                 </ul>
