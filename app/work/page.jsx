@@ -55,7 +55,7 @@ const projects = [
       { name: "Socket.io" },
     ],
     image: "/assets/chatmk1.png",
-    live: "https://chat.eng-ahmed.me",
+    live: "https://chat.ahmed.software",
     github: "https://github.com/ahmed-abdelhameed1706/fullstack-chat",
   },
   {
@@ -70,10 +70,9 @@ const projects = [
       { name: "React" },
       { name: "MongoDB" },
       { name: "Node.js" },
-      
     ],
     image: "/assets/vibemk.png",
-    live: "https://vibemk.eng-ahmed.me",
+    live: "https://vibemk.ahmed.software",
     github: "https://github.com/ahmed-abdelhameed1706/VibeMK",
   },
 ];
