@@ -12,6 +12,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Ahmed Portfolio",
   description: "Personal Portfolio of SWE. Ahmed Abd ElHameed",
+  icons: {
+    icon: "/the-letter-a.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -35,7 +35,7 @@ const projects = [
       { name: "Tailwind.css" },
     ],
     image: "/assets/ijar1.png",
-    live: "https://ijar.tech",
+    live: "https://ijar.ahmed.software",
     github: "https://github.com/ahmed-abdelhameed1706/ijar",
   },
   {
