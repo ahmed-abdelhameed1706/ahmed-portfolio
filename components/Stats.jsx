@@ -21,7 +21,7 @@ const Stats = () => {
 
   const stats = [
     {
-      num: 1,
+      num: 2.5,
       text: "Years of Experience",
     },
     {
